@@ -7,7 +7,7 @@ goto(0,-40)
 
 for i in range(15):
     for j in range(18):
-        color("#ffa216")
+        color("#ffa216")#color petalo
         rt(90)
         circle(150-j*6,90)
         lt(90)
@@ -18,7 +18,7 @@ for i in range(15):
 color("black")
 shape("circle")
 shapesize(0.5)
-fillcolor("#8b4513")
+fillcolor("#8b4513")#color adentro de la flor
 angulo=137.508
 
 aureo=angulo*(pi/180)
