@@ -1,4 +1,4 @@
-from turtle import * #Graficos en tortuga o circulos
+from turtle import * #Graficos vectores
 from colorsys import * #colores y convertidor de colores
 
 bgcolor("black")
@@ -13,7 +13,7 @@ for i in range(210):
     color(c) #Cambiar el color
     up() #dejar de pintar
     goto(-8,25) #Mover la posicion del grafico
-    down() #empezar a pintar la nueva tortuga o circulo
+    down() #empezar a pintar la nueva grafica
     forward(i) #mueve la grafica un pixel mas
     right(89) #girar la grafica 89grados
     fillcolor(c) #establecer el color de la pluma
